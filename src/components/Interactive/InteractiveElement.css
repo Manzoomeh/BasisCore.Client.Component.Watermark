@@ -1,0 +1,17 @@
+.wm-rect-box {
+  fill-opacity: 0;
+  stroke-dasharray: 5, 5;
+  pointer-events: none;
+}
+.wm-rect-box:hover,
+.wm-rect-box.wm-rect-select {
+  stroke: #1a6eff85;
+  stroke-width: 3px;
+}
+
+g.wm-group {
+  cursor: move;
+}
+use {
+  opacity: 0.3;
+}
